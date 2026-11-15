@@ -1,0 +1,26 @@
+Personal Mini-Toolkit - Plan
+
+My Tools:
+1. Quick Calculator - Takes two numbers and an operation (+ - * /) and shows the result.
+   Uses: conditionals (if/elif/else), f-strings, try/except for invalid numbers
+
+2. To-Do List Manager - Lets you add tasks, view all tasks, and remove a task by number.
+   Uses: list (todos) that changes while program runs, loop (while True), conditionals, f-strings
+
+3. Expense Tracker - Lets you add expenses, view all expenses, and see total spent.
+   Uses: list (expenses) that changes while program runs, loop (while True), conditionals, f-strings, sum()
+
+Exact Menu Text My Program Will Show:
+
+===== PERSONAL MINI-TOOLKIT =====
+1. Quick Calculator
+2. To-Do List Manager
+3. Expense Tracker
+4. Quit
+
+
+How The Program Works:
+- Show menu in a while True loop so it returns after every tool finishes
+- Use if / elif / else to run the chosen tool
+- If choice is not 1-4, print "Invalid choice. Please enter 1, 2, 3 or 4." and show menu again - do not crash
+- Choice 4 breaks the loop and prints a friendly goodbye
